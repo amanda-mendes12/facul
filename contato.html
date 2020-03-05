@@ -6,9 +6,13 @@
       h1{
         font-family: "Andale Mono", monospace;
         color: coral;
-        padding-bottom: 20px;
+        padding-bottom: 5px;
       }
       .text {
+        font-family: "Andale Mono", monospace;
+      }
+      .text-title {
+        font-size: 24px;
         font-family: "Andale Mono", monospace;
       }
       .common-fields {
@@ -17,20 +21,39 @@
       }
       .text-field {
         width: 400px;
-        height: 400px;
+        height: 200px;
       }
       .padding-label {
         padding-left: 10px;
       }
       button{
-          position: absolute;
-          bottom: 30px;
+          position: relative;
+          bottom: 0px;
+          background-color: coral;
+          background-size: 10px;
+          font-family: "Andale Mono";
+          color: white;
           left: 10px;
+      }
+      .contato {
+        background-color: coral;
+        color: white;
+        font-family: "Andale Mono", monospace;
+        text-decoration: none;
+      }
+      .sobre {
+        background-color: coral;
+        color: white;
+        font-family: "Andale Mono", monospace;
+        text-decoration: none;
       }
     </style>
   </header>
-  <body>
-    <p class="text">Entre em contato comigo!</p>
+  <body> 
+    <a href="./sobre.html" target="_blank" class="sobre">SOBRE</a>
+    <a href="./contato.html" target="_blank" class="contato">CONTATO</a>
+
+    <p class="text-title">Entre em contato comigo!</p>
 
     <p class="text padding-label">Nome</p>
     <input class="common-fields" placeholder="Seu nome aqui" />
